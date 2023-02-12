@@ -421,7 +421,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"variable\": 1,\r\n    \"value\": 3.0,\r\n    \"unit\": \"5\",\r\n    \"place\": \"Borago\",\r\n    \"dateTime\": \"2023-02-11T14:15:16.672Z\"\r\n}",
+					"raw": "{\r\n    \"variable\": 5,\r\n    \"value\": 3.0,\r\n    \"unit\": \"5\",\r\n    \"place\": \"XD\",\r\n    \"dateTime\": \"2023-02-11T14:15:16.672Z\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -478,7 +478,7 @@
 					}
 				},
 				"url": {
-					"raw": "{{host}}:{{port}}{{api_path}}/measurements?id=3",
+					"raw": "{{host}}:{{port}}{{api_path}}/measurements?id=2",
 					"host": [
 						"{{host}}"
 					],
@@ -489,7 +489,7 @@
 					"query": [
 						{
 							"key": "id",
-							"value": "3"
+							"value": "2"
 						}
 					]
 				}
